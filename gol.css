@@ -1,0 +1,50 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+p {
+  margin: 8px 0px;
+  font-size: 0.9rem;
+}
+a {
+    text-decoration: none;
+}
+hr {
+  opacity: 0.2;
+}
+
+.wrapper, #info{
+  width: 400px;
+  margin: 10px auto;
+}
+.row {
+  width: 400px;
+}
+
+.cell{
+  height: 8px;
+  width:  8px;
+  margin: 1px;
+  display:inline;
+  float: left;
+  background-color: #e5e5e5;
+}
+.cell:last-child{
+  /*margin-right: 0px;*/
+}
+
+/* living cells */
+.l {
+  border-radius: 2px;
+  background-color: #66bb6a;
+}
+
+/* extinct cells */
+.e {
+  background-color: #ef9a9a;
+}
